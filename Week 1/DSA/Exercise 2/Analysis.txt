@@ -1,0 +1,17 @@
+Time Complexity Comparison:
+
+Linear Search: O(n)
+Linear search iterates through the entire array, making it slower, especially for large datasets.
+Binary Search: O(log n)
+Binary search divides the array in half with each iteration, making it significantly faster than linear search for large, sorted datasets.
+Suitability for the Platform:
+
+Linear Search:
+
+Suitable for small datasets or unsorted data where sorting overhead is not justifiable.
+It’s also useful when the dataset is dynamic, frequently changing, or when the cost of maintaining a sorted list is too high.
+
+Binary Search:
+
+More suitable for large datasets where the data is already sorted or can be sorted efficiently.
+Provides much faster search times, which is crucial for an e-commerce platform where users expect quick search results.

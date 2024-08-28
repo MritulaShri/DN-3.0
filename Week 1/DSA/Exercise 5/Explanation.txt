@@ -1,0 +1,26 @@
+Singly Linked List:
+
+Description: A singly linked list is a data structure where each node contains data and a reference (or pointer) to the next node in the sequence. The list starts with a head node, and the last node points to null, indicating the end of the list.
+
+Advantages:
+
+Dynamic Size: Unlike arrays, linked lists can grow or shrink in size dynamically, making them ideal for situations where the number of elements is unpredictable.
+Efficient Insertions/Deletions: Insertions and deletions are more efficient than arrays, especially for operations at the beginning or middle of the list, since there is no need to shift elements.
+
+Disadvantages:
+
+No Direct Access: Accessing an element in a linked list requires traversing from the head, resulting in O(n) time complexity for search operations.
+Extra Memory: Each node requires additional memory to store the pointer to the next node.
+
+Doubly Linked List:
+
+Description: A doubly linked list is similar to a singly linked list, but each node contains two references: one to the next node and one to the previous node. This allows traversal in both directions.
+
+Advantages:
+
+Bidirectional Traversal: Nodes can be traversed in both forward and backward directions.
+Efficient Deletions: Deleting a node is more efficient because you have direct access to the previous node.
+Disadvantages:
+
+Increased Memory Usage: Additional memory is required to store the extra pointer for the previous node.
+More Complex Implementation: The need to maintain two pointers in each node adds complexity to the implementation.

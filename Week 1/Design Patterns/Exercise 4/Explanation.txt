@@ -1,0 +1,7 @@
+PaymentProcessor.java: This interface defines the processPayment method that will be used by clients.
+
+PaypalGateway.java, StripeGateway.java, SquareGateway.java: These classes represent different payment gateways, each with their own method to process payments.
+
+PaypalAdapter.java, StripeAdapter.java, SquareAdapter.java: These adapter classes implement the PaymentProcessor interface and translate the processPayment method call to the gateway-specific method.
+
+PaymentProcessorTest.java: This class tests the Adapter implementation by using different payment gateways through their respective adapters and demonstrating the payment processing.

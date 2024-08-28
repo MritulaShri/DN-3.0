@@ -1,0 +1,5 @@
+Computer.java: This class defines the Computer product with its attributes and a nested Builder class.
+
+Builder: This static nested class provides methods to set each attribute and a build() method to create a Computer instance.
+
+ComputerBuilderTest.java: This class tests the Builder implementation by creating different configurations of Computer using the Builder and printing their details.

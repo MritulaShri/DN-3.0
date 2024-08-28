@@ -1,0 +1,7 @@
+Student.java: This is the model class that represents a student with attributes like id, name, and grade. It provides getter and setter methods to access and modify these attributes.
+
+StudentView.java: This is the view class that contains a method to display student details.
+
+StudentController.java: This is the controller class that handles the communication between the model and the view. It provides methods to update the model's attributes and to update the view with the model's data.
+
+MVCPatternTest.java: This is the main class that tests the MVC implementation by creating a Student model, a StudentView, and a StudentController, updating the student's details, and displaying them.

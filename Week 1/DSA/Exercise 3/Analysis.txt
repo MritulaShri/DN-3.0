@@ -1,0 +1,21 @@
+Performance Comparison:
+
+Bubble Sort:
+
+Time Complexity: O(n²) in both average and worst cases.
+Space Complexity: O(1).
+Performance: Bubble Sort is inefficient for large datasets due to its quadratic time complexity. It involves repeated comparisons and swaps, making it slow.
+
+Quick Sort:
+
+Time Complexity: O(n log n) on average, but O(n²) in the worst case.
+Space Complexity: O(log n) due to the recursive calls.
+Performance: Quick Sort is generally much faster than Bubble Sort, especially for large datasets. The divide-and-conquer approach minimizes the number of comparisons and swaps.
+
+Why Quick Sort is Preferred Over Bubble Sort:
+
+Efficiency: Quick Sort is more efficient, especially for large datasets, with an average time complexity of O(n log n), compared to Bubble Sort’s O(n²).
+
+Scalability: Quick Sort handles large inputs much better due to its logarithmic depth of recursion, which significantly reduces the total number of operations.
+
+Practical Use: While Bubble Sort is simpler and can be used for small or nearly sorted datasets, Quick Sort is preferred in real-world applications where performance is critical. The average-case efficiency of Quick Sort makes it a better choice for sorting customer orders on an e-commerce platform.

@@ -1,0 +1,29 @@
+Time Complexity Comparison:
+
+Linear Search:
+
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+Linear search is straightforward but inefficient for large datasets, as it checks each element one by one. Its performance deteriorates linearly as the dataset size increases.
+
+Binary Search:
+
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
+
+Binary search is significantly more efficient than linear search for large, sorted datasets. It cuts the search space in half with each step, leading to much faster search times, especially as the dataset size grows.
+
+When to Use Each Algorithm:
+
+Linear Search:
+
+Unsorted Data: Use linear search when the data is unsorted or when sorting the data is too costly or impractical.
+Small Datasets: For small datasets, the simplicity of linear search may outweigh its inefficiency, as the difference in speed is negligible.
+
+Binary Search:
+
+Sorted Data: Use binary search when the dataset is sorted or can be sorted. It’s ideal for large datasets where quick search times are necessary.
+Frequent Searches: If the data is queried frequently and remains relatively static, sorting it once and using binary search can be highly efficient.

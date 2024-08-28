@@ -1,0 +1,9 @@
+Document.java: This interface defines the common operations for all document types.
+
+WordDocument.java, PdfDocument.java, ExcelDocument.java: These classes implement the Document interface and provide specific implementations for each document type.
+
+DocumentFactory.java: This abstract class declares the factory method createDocument().
+
+WordDocumentFactory.java, PdfDocumentFactory.java, ExcelDocumentFactory.java: These concrete factory classes extend DocumentFactory and implement the createDocument() method to create specific document types.
+
+DocumentFactoryTest.java: This class tests the Factory Method implementation by creating different document types using the respective factories and demonstrating their usage.

@@ -1,0 +1,14 @@
+Analysis:
+Time Complexity of Operations:
+
+Add Product: O(1) on average due to the hash-based storage in HashMap.
+Update Product: O(1) on average since updating an entry in HashMap involves a hash lookup.
+Delete Product: O(1) on average, similar to the update operation.
+
+Optimization:
+
+Collision Handling: Ensure that the hash function minimizes collisions in the HashMap. Java’s HashMap handles this internally, but understanding its behavior can help optimize performance further.
+
+Load Factor: Adjust the load factor of HashMap if necessary to balance space and time efficiency.
+
+Data Validation: Implement validation checks to handle invalid operations gracefully and ensure data consistency.

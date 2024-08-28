@@ -1,0 +1,9 @@
+Command.java: This interface defines the execute method that will be implemented by concrete command classes.
+
+LightOnCommand.java and LightOffCommand.java: These classes implement the Command interface and encapsulate the request to turn the light on and off, respectively.
+
+RemoteControl.java: This class acts as the invoker and holds a reference to a Command. It has a method to set the command and another to execute the command by pressing the button.
+
+Light.java: This class is the receiver that has the methods to turn the light on and off.
+
+CommandPatternTest.java: This class tests the Command pattern implementation by creating a Light object, Command objects, and a RemoteControl object, and issuing commands to turn the light on and off.

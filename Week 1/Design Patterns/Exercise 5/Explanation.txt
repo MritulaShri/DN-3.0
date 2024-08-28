@@ -1,0 +1,11 @@
+Notifier.java: This interface defines the send method for sending notifications.
+
+EmailNotifier.java: This class implements the Notifier interface and sends notifications via email.
+
+NotifierDecorator.java: This abstract class implements the Notifier interface and holds a reference to another Notifier object.
+
+SMSNotifierDecorator.java: This concrete decorator class extends NotifierDecorator and adds SMS notification functionality.
+
+SlackNotifierDecorator.java: This concrete decorator class extends NotifierDecorator and adds Slack notification functionality.
+
+NotifierTest.java: This class tests the Decorator implementation by creating an EmailNotifier, decorating it with SMSNotifierDecorator and SlackNotifierDecorator, and sending a notification through all channels.

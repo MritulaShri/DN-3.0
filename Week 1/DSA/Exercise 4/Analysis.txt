@@ -1,0 +1,30 @@
+Time Complexity of Operations:
+
+Add Employee: O(1)
+
+Adding an employee is fast because it involves placing the employee at the end of the array and incrementing the counter.
+Search Employee: O(n)
+
+Searching requires traversing the array until the employee is found, resulting in linear time complexity in the worst case.
+Traverse Employees: O(n)
+
+Traversing the array requires visiting each element, so the time complexity is linear.
+Delete Employee: O(n)
+
+Deleting an employee involves searching for the employee and then shifting elements to fill the gap, both of which contribute to O(n) complexity.
+
+Limitations of Arrays:
+
+Fixed Size: Arrays have a fixed size, meaning you need to allocate enough memory at the start, and this can lead to wasted space or lack of space.
+
+Inefficient Insertions/Deletions: Inserting or deleting elements in the middle of the array requires shifting elements, which is time-consuming.
+
+Lack of Flexibility: Unlike dynamic data structures like linked lists, arrays do not adapt well to frequent changes in size.
+
+When to Use Arrays:
+
+Small or Fixed-Size Data: Arrays are suitable when you know the number of elements in advance, and the data size is manageable.
+
+Fast Access Required: When you need quick access to elements using an index, arrays are ideal.
+
+Memory Efficiency: If memory usage is a concern and you need a compact data structure, arrays can be beneficial.

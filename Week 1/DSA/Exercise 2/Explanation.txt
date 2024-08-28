@@ -1,0 +1,25 @@
+Big O Notation:
+
+Definition: Big O notation describes the upper bound of an algorithm's time complexity, providing a way to quantify how the runtime or space requirements of an algorithm grow as the input size increases.
+
+Purpose: It helps in comparing the efficiency of different algorithms, particularly in terms of their scalability. Big O focuses on the worst-case scenario, ensuring that the algorithm performs well even under the most challenging conditions.
+
+Best, Average, and Worst-Case Scenarios for Search Operations:
+
+Best Case: The scenario where the search operation finds the target item immediately, such as the first element in a list. For a linear search, the best case is O(1).
+
+Average Case: The expected runtime considering all possible positions of the target item. For a linear search, this averages to O(n/2), which simplifies to O(n).
+
+Worst Case: The scenario where the search operation has to examine every item in the list. For a linear search, this is O(n), where n is the number of elements in the array.
+
+Linear Search:
+
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+Binary Search:
+
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)

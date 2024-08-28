@@ -1,0 +1,27 @@
+Bubble Sort:
+
+How It Works: Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the list is sorted.
+Time Complexity: O(n²) in the average and worst cases, making it inefficient for large datasets.
+Space Complexity: O(1) as it is an in-place sorting algorithm.
+Use Cases: Simple to implement but inefficient; mainly used for educational purposes or small datasets.
+
+Insertion Sort:
+
+How It Works: Insertion Sort builds the sorted list one element at a time. It picks an element from the unsorted portion and inserts it into the correct position in the sorted portion.
+Time Complexity: O(n²) in the average and worst cases, but O(n) in the best case (when the list is already sorted).
+Space Complexity: O(1) as it is also an in-place sorting algorithm.
+Use Cases: Efficient for small datasets or nearly sorted datasets.
+
+Quick Sort:
+
+How It Works: Quick Sort is a divide-and-conquer algorithm that picks a 'pivot' element, partitions the array into elements less than and greater than the pivot, and recursively sorts the partitions.
+Time Complexity: O(n log n) on average, but O(n²) in the worst case (if the pivot elements are poorly chosen).
+Space Complexity: O(log n) due to the recursive stack space, but it is an in-place sort.
+Use Cases: Widely used for large datasets due to its efficient average-case performance.
+
+Merge Sort:
+
+How It Works: Merge Sort is another divide-and-conquer algorithm that divides the array into halves, recursively sorts them, and then merges the sorted halves.
+Time Complexity: O(n log n) in all cases (best, average, and worst).
+Space Complexity: O(n) because it requires additional space for merging.
+Use Cases: Useful for sorting linked lists and large datasets, especially when stable sorting is required.

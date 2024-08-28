@@ -1,0 +1,23 @@
+Linear Search:
+
+Description: Linear search is a straightforward search algorithm that checks each element in the dataset sequentially until the target element is found or the list ends. It does not require the data to be sorted.
+
+Time Complexity:
+
+Best Case: O(1) - The target element is the first element in the list.
+Average Case: O(n) - The target element is somewhere in the middle.
+Worst Case: O(n) - The target element is the last one or not present at all.
+
+Use Cases: Linear search is simple and works well with small, unsorted datasets or when the data is frequently updated and maintaining a sorted order is impractical.
+
+Binary Search:
+
+Description: Binary search is an efficient algorithm that works on sorted datasets. It repeatedly divides the search interval in half. If the target value is less than the middle element, the search continues in the left half; otherwise, it continues in the right half.
+
+Time Complexity:
+
+Best Case: O(1) - The target element is the middle element.
+Average Case: O(log n) - The dataset is halved with each step.
+Worst Case: O(log n) - The search goes through all levels of division.
+
+Use Cases: Binary search is ideal for large, sorted datasets where fast search operations are necessary.

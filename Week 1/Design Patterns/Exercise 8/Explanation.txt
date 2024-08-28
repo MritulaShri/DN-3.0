@@ -1,0 +1,9 @@
+PaymentStrategy.java This interface defines the pay method for different payment strategies.
+
+CreditCardPayment.java This class implements the PaymentStrategy interface and provides payment functionality using a credit card.
+
+PayPalPayment.java This class implements the PaymentStrategy interface and provides payment functionality using PayPal.
+
+PaymentContext.java This class holds a reference to a PaymentStrategy and has a method to execute the strategy.
+
+StrategyPatternTest.java This class tests the Strategy implementation by creating PaymentContext and PaymentStrategy objects, setting different payment strategies, and executing payments.

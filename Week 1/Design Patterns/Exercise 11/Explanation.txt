@@ -1,0 +1,7 @@
+CustomerRepository.java: This is an interface that defines the contract for the repository class with methods like findCustomerById.
+
+CustomerRepositoryImpl.java: This class implements the CustomerRepository interface and provides a simple implementation for the findCustomerById method.
+
+CustomerService.java: This service class depends on the CustomerRepository and uses constructor injection to receive an instance of the repository.
+
+DependencyInjectionTest.java: This class demonstrates the dependency injection by creating an instance of CustomerRepositoryImpl, injecting it into CustomerService, and using it to find and display a customer.

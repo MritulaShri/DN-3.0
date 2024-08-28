@@ -1,0 +1,7 @@
+Image.java: This interface defines the display method for displaying images.
+
+RealImage.java: This class implements the Image interface and simulates loading an image from a remote server.
+
+ProxyImage.java: This class implements the Image interface and holds a reference to a RealImage object. It implements lazy initialization by only loading the RealImage when display is called for the first time.
+
+ProxyPatternTest.java: This class tests the Proxy implementation by creating ProxyImage objects and demonstrating the lazy initialization and caching functionality.

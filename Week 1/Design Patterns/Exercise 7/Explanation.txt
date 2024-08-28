@@ -1,0 +1,9 @@
+Stock.java: This interface defines the methods to register, deregister, and notify observers.
+
+StockMarket.java: This class implements the Stock interface and maintains a list of observers. It notifies all registered observers whenever the stock price changes.
+
+Observer.java: This interface defines the update method that observers must implement to receive updates.
+
+MobileApp.java and WebApp.java: These classes implement the Observer interface and receive stock price updates.
+
+ObserverPatternTest.java: This class tests the Observer implementation by creating StockMarket and Observer objects, registering observers, and demonstrating notifications of stock price changes.

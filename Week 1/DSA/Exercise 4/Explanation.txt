@@ -1,0 +1,9 @@
+How Arrays are Represented in Memory:
+
+Contiguous Memory Allocation: Arrays are stored in contiguous blocks of memory, meaning that each element is placed right next to the other in memory. This allows for efficient indexing since the address of any element can be calculated directly using the base address and the index.
+
+Advantages of Arrays:
+
+Fast Access: Direct indexing provides O(1) time complexity for accessing elements, making arrays very efficient for retrieval operations.
+Memory Efficiency: Arrays are memory-efficient since they don’t require additional overhead like pointers or links used in other data structures (e.g., linked lists).
+Predictable Memory Use: The size of an array is fixed at the time of creation, which allows for easy calculation of memory requirements.

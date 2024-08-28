@@ -1,0 +1,20 @@
+Time Complexity of the Recursive Algorithm:
+
+Time Complexity: O(n)
+
+The time complexity of the recursive method is O(n), where n is the number of years. This is because the function makes a recursive call for each year until it reaches the base case (when years = 0).
+Space Complexity: O(n)
+
+The space complexity is also O(n) because each recursive call adds a frame to the call stack. For a deep recursion (e.g., many years), this could lead to significant memory usage.
+Optimizing the Recursive Solution:
+
+Memoization:
+
+To avoid recalculating the same future value for the same number of years multiple times, you can use memoization. This involves storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+Iterative Approach:
+
+While recursion is elegant, an iterative approach can be more efficient in terms of both time and space. Iteration avoids the overhead of recursive calls and can handle larger inputs without the risk of stack overflow.
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)

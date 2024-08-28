@@ -1,0 +1,3 @@
+Logger.java: This class ensures that only one instance of Logger is created. The getInstance() method provides global access to the instance and ensures thread safety using double-checked locking.
+
+LoggerTest.java: This class tests the Singleton implementation by obtaining two references to the Logger instance and verifying that both references point to the same instance. The test also logs some messages to demonstrate the usage of the Logger class.
